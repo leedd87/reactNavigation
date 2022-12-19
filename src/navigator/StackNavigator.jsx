@@ -15,7 +15,9 @@ const StackNavigator = () => {
         <Stack.Navigator>
             <Stack.Screen name="Home" component={HomeScreen} />
             <Stack.Screen name="Detalles" component={DetailSreen} />
-            {/* <Stack.Screen name="MisProyectos" component={MisProyectos} /> */}
+            {/* <Stack.Screen name="MisProyectos" component={MisProyectos} />
+            AGREGAR COMPONENTE TAB NAVIGATOR y de DETALLES o en el proyecto "Mis PROYECTOS" al hacer click lleva a TabNavigator
+            */}
             <Stack.Screen name="MisProyectos" component={TabNavigator} />
 
         </Stack.Navigator>

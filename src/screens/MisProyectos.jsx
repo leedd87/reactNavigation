@@ -5,7 +5,7 @@ export const MisProyectos = () => {
     return (
         <View>
             <Text>
-                Mis Proyectos
+                Mis Proyectos y MAPAAAAAAA
             </Text>
         </View>
     )
